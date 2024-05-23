@@ -1,22 +1,14 @@
 body {
+  background-image: url("d.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
   animation: gradient 10s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-color: #f5f5f5;
-  }
-  50% {
-    background-color: #e0e0e0;
-  }
-  100% {
-    background-color: #f5f5f5;
-  }
 }
 
 header {
@@ -125,4 +117,24 @@ button:hover {
   animation: fadeIn 1s ease;
 }
 
-/* Add
+/* Added colorful backgrounds for success messages */
+#success-message {
+  background-color: #b3ffb3;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #4caf50;
+  display: none;
+  animation: fadeIn 1s ease;
+}
+
+/* Added colorful backgrounds for warning messages */
+#warning-message {
+  background-color: #ffe699;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #ffa07a;
+  display: none;
+  animation: fadeIn 1s ease;
+}

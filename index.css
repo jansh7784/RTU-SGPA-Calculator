@@ -1,0 +1,128 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-color: #f5f5f5;
+  }
+  50% {
+    background-color: #e0e0e0;
+  }
+  100% {
+    background-color: #f5f5f5;
+  }
+}
+
+header {
+  background-color: #333;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+select,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  color: #333;
+  animation: fadeIn 1s ease;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  animation: gradient 10s ease infinite;
+}
+
+button:hover {
+  background-color: #1c87c9;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3498db;
+  animation: fadeIn 1s ease;
+}
+
+/* Added colorful backgrounds for subject inputs */
+#subjectInputs {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  animation: fadeIn 1s ease;
+}
+
+#subjectInputs input {
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  color: #333;
+  animation: fadeIn 1s ease;
+}
+
+/* Added colorful backgrounds for error messages */
+#error-message {
+  background-color: #ffbdbd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #f44336;
+  display: none;
+  animation: fadeIn 1s ease;
+}
+
+/* Add
